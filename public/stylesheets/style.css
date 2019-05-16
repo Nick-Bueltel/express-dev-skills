@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "helvetica";
+  background-color:darkgray; 
+}
+
+a {
+  color:black;
+  display: table;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.delete-form button {
+  color: white; 
+  background-color: darkred;
+  border-radius: 5px;
+}
+.delete-form button:hover{
+  transition: linear; 
+  transition-duration: 500ms;
+  color: black; 
+  background-color: red; 
+}
+
+li {
+  list-style: none;
+}
